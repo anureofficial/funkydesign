@@ -8,12 +8,18 @@
      -webkit-text-size-adjust:100%;
     -ms-text-size-adjust:100%;
     font-size-adjust:100%
+	scroll-behavior: smooth;
+	transition:all 0.4s ease;
+
 }
 html,body{
     height:100%
+	scroll-behavior: smooth;
+
 }
 body{
-	 
+	 scroll-behavior: smooth;
+
     font:normal 300 1.4rem/1.86 "Poppins",sans-serif;
     color:#666;
     background-color:#fff;
@@ -8788,7 +8794,7 @@ button:focus{
 }
 .brand img{
     width:auto !important;
-    max-width:100% !important
+    max-width:70% !important
 }
 .brand:focus{
     outline:none !important
@@ -11822,7 +11828,7 @@ button:focus{
 }
 .member p{
     max-width:240px;
-    color:#999
+    color:#999;
 }
 .member.text-center p{
     margin-left:auto;
